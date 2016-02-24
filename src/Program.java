@@ -31,7 +31,7 @@ public class Program {
 	    if (y % 2 == 0) {
 		return fastExp(x * x, y / 2);
 	    } else {
-		return fastExp(x * x, (y - 1) / 2);
+		return x * fastExp(x * x, (y - 1) / 2);
 	    }
 	}
 	return x;
