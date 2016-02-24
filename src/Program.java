@@ -142,6 +142,9 @@ public class Program {
 
     public static void main(String[] args) {
 
+	if (fastExp(3, 3) == 27) {
+	    System.out.print("congrats");
+	}
 	String[] strArr = { "Hello", "World", "!" };
 	String str = concatAndReplicateAll(strArr, 3);
 	System.out.println(str);
